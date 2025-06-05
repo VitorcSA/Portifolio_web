@@ -32,6 +32,7 @@ a {
 
 main p {
 
+    max-width: 900px;
     padding: 10px;
 
 }
@@ -50,10 +51,6 @@ main p {
 
 .sidebar.open {
     left: 0; 
-}
-
-.text {
-    margin: 0; 
 }
 
 .TopBar {
@@ -98,10 +95,6 @@ main p {
 
 }
 
-.content {
-    max-width: 900px;
-}
-
 .sidebar a {
     display: flex;
     color: white;
@@ -115,12 +108,21 @@ main p {
     text-decoration: underline;
 }
 
+.text {
+    padding-top: 10px;
+}
+
+.sobre h1 {
+
+padding-top: 10px;
+
+}
+
 #lista {
-    margin-top: 100px;
+    margin-left: 28px;
 }
 
 #habilidades {
-
     color: black;
 }
 
