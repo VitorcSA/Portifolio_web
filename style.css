@@ -91,7 +91,7 @@ main p {
 }
 
 .sidebar a:hover, .sidebar a.ativo {
-    color: #8e44ad;
+    color: #1793d1;
     text-decoration: none;
 }
 
@@ -135,6 +135,6 @@ main p {
 .contatos nav a{
     
     flex-direction: row;
-    color: #8e44ad;
+    color: #1793d1;
     text-decoration: underline;
 }
