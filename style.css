@@ -105,24 +105,29 @@ main p {
 
 .sidebar a:hover, .sidebar a.ativo {
     color: #8e44ad;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .text {
     padding-top: 10px;
 }
 
-.sobre h1 {
+.sobre h2 {
 
-padding-top: 10px;
+padding-top: 50px;
 
 }
 
-#lista {
+.lista {
     margin-left: 28px;
+    padding: 10px;
 }
 
-#habilidades {
+.lista li {
+    padding: 2px;
+}
+
+.habilidades {
     color: black;
 }
 
