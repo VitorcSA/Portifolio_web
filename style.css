@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -63,19 +64,6 @@ main p {
     justify-content: center;
 }
 
-.DownBar {
-    background-color: #333;
-    color: #e0e7ff;
-    right: 0;
-    padding: 10px;
-    height: 15vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;   
-    justify-content: center;
-}
-
 .toggle-btn {
     position: absolute;
     right: 2.5px;
@@ -92,7 +80,6 @@ main p {
     height: auto;
     max-width: 600px;
     border-radius: 12px;
-
 }
 
 .sidebar a {
@@ -113,9 +100,7 @@ main p {
 }
 
 .sobre h2 {
-
-padding-top: 50px;
-
+    padding-top: 50px;
 }
 
 .lista {
@@ -131,3 +116,25 @@ padding-top: 50px;
     color: black;
 }
 
+.contatos p{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    justify-content: center;
+    margin-top: 75vh;
+}
+
+.contatos nav{
+    display: flex;
+    align-items: center;   
+    justify-content: center;
+    
+}
+
+.contatos nav a{
+    
+    flex-direction: row;
+    color: #8e44ad;
+    text-decoration: underline;
+}
