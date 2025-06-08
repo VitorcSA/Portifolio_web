@@ -13,14 +13,12 @@ body {
 }
 
 main {
-
     color: #333;
     margin-top: 20px;
     margin-left: 80px;
     display: flex;
     flex-direction: column;
     flex: 1;
-
 }
 
 header {
@@ -95,11 +93,7 @@ main p {
     text-decoration: none;
 }
 
-.text {
-    padding-top: 10px;
-}
-
-.sobre h2 {
+.sobre h3 {
     padding-top: 50px;
 }
 
@@ -110,10 +104,6 @@ main p {
 
 .lista li {
     padding: 2px;
-}
-
-.habilidades {
-    color: black;
 }
 
 .contatos p{
@@ -137,4 +127,8 @@ main p {
     flex-direction: row;
     color: #1793d1;
     text-decoration: underline;
+}
+
+.titles {
+    color: #1793d1;
 }
